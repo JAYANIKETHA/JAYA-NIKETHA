@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-7">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My webpage</title>
+</head>
+<style>
+    body { 
+        margin: 0;
+        font: Arial;
+    }
+    #header{
+        background-color:blue;
+        width:90%;
+        top: 10;
+        position:absolute;
+        height: 120px;
+    }
+    footer{
+        background-color: blue;
+        width:auto;
+        padding: 15px;
+    }
+    h1{
+        color: pink;
+        text-align: center;
+    }
+    .header-right {
+        text-align: center;
+        word-spacing: 40px;
+        color: white;
+    }
+    h2{
+        padding-top: 120px;
+        text-align: center;
+    }
+    #p1{
+        text-align: center;
+    }
+    #p5{
+        text-align: center;
+        color: white;
+    }
+    h3{
+        padding-top: 60px;
+        text-align: center;
+    }
+    .left{
+        position: absolute;
+        left: 100px;
+        width: 100px;
+        text-align: center;
+        background-color: red;
+        padding: 10px;
+    }
+    .right{
+        position: absolute;
+        right: 300px;
+        width: 300px;
+        text-align: center;
+        background-color: red;
+        padding: 10px;
+    }
+    .center {
+        margin-top: 10%;
+        margin-left: 15%;
+        width: 100px;
+        padding: 10px;
+        background-color: red;
+    }
+    #center{
+        text-align: center;
+        margin-top:2%;
+        color: black;
+    }
+</style>
+<body>
+    <div id="header">
+        <h1>Jaya Niketha</h1>
+        <div class="header-right">
+            <a>Home</a>
+            <a>Contact</a>
+            <a>About</a>
+        </div>
+    </div>
+    <main>
+        <h2>About Me</h2>
+        <p id="p1">Intrested to learn java full stack development ,front end, back end and become a software developer</p>
+        <h3>Experiences</h3>
+        <div class="left">
+            <h3>Skills</h3>
+            <p>HTML, Java, Python, C </p>
+        </div>
+        <div class="right">
+            </p>
+        </div>
+        <br>
+        <div class="center">
+            </p>
+        </div>
+        <div id = "center">
+            <h4>Contact No</h4> href="mailat: jayaniketha708@gmail.com">Jaya Niketha</a></p>
+            <p>Ph Number : <a href="9878654780</a></p>
+        </div>
+        
+    </main>
+    <footer>
+        <p id="p5">@2025 @SISTPLACEMENT</p>
+    </footer>
+</body>
+</html>
