@@ -1,0 +1,13 @@
+function loadEmployees() {
+    fetch('/employees')
+        .then(res => res.json())
+        .then(data => {
+            let list = document.getElementById("list");
+            list.innerHTML = "";
+            data.forEach(emp => {
+                let li = document.createElement("li");
+                li.innerText = emp.name;
+                list.appendChild(li);
+            });
+        });
+}

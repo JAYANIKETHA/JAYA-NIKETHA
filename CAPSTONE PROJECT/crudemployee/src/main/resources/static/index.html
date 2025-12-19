@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Employee Management System</title>
+  <style>
+	<style>
+	  body {
+	    font-family: Arial, sans-serif;
+	    background-color: #f4f6f8;
+	    padding: 40px;
+	  }
+
+	  h2 {
+	    text-align: center;
+	    color: #333;
+	  }
+
+	  .container {
+	    max-width: 700px;
+	    margin: auto;
+	    background: white;
+	    padding: 25px;
+	    border-radius: 8px;
+	    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+	  }
+
+	  input {
+	    padding: 10px;
+	    margin: 5px;
+	    width: 30%;
+	    border: 1px solid #ccc;
+	    border-radius: 5px;
+	  }
+
+	  button {
+	    padding: 10px 15px;
+	    background-color: #4CAF50;
+	    color: white;
+	    border: none;
+	    border-radius: 5px;
+	    cursor: pointer;
+	  }
+
+	  button:hover {
+	    background-color: #45a049;
+	  }
+
+	  table {
+	    width: 100%;
+	    margin-top: 20px;
+	    border-collapse: collapse;
+	  }
+
+	  th {
+	    background-color: #4CAF50;
+	    color: white;
+	    padding: 10px;
+	  }
+
+	  td {
+	    padding: 10px;
+	    text-align: center;
+	    border-bottom: 1px solid #ddd;
+	  }
+
+	  tr:hover {
+	    background-color: #f1f1f1;
+	  }
+
+	  .action-btn {
+	    background-color: #2196F3;
+	  }
+
+	  .action-btn:hover {
+	    background-color: #1976D2;
+	  }
+	</style>
+
+   
+  </style>
+</head>
+<body>
+	<div class="container">
+	  <h2>Employee Management System</h2>
+
+	  <input type="text" id="name" placeholder="Name">
+	  <input type="email" id="email" placeholder="Email">
+	  <button onclick="addEmployee()">Add / Update</button>
+
+	  <table>
+	    ...
+	  </table>
+	</div>
+
+
+
+<input type="text" id="name" placeholder="Name">
+<input type="email" id="email" placeholder="Email">
+<input type="text" id="leaveStatus" placeholder="Leave Status">
+<input type="number" id="salary" placeholder="Salary">
+
+<button onclick="addEmployee()">Add Employee</button>
+
+<br><br>
+
+<table>
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Name</th>
+      <th>Email</th>
+	  <th>Leave Status</th>
+	  <th>Salary</th>
+
+    </tr>
+  </thead>
+  <tbody id="empTable"></tbody>
+</table>
+
+<script src="js/app.js"></script>
+</body>
+</html>
